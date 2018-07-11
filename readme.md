@@ -1,4 +1,7 @@
 
+[![Build Status](https://api.travis-ci.org/clavearnel/springboot-REST-jwt-h2-mariadb-starter.svg?branch=master)](https://travis-ci.org/clavearnel/springboot-REST-jwt-h2-mariadb-starter)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/clavearnel/springboot-REST-jwt-h2-mariadb-starter/blob/master/LICENSEhttps://github.com/bfwg/springboot-jwt-starter/blob/master/LICENSE)
+
 **Deployable Springboot REST API**
 > A Springboot token-based security starter kit featuring[Springboot](https://projects.spring.io/spring-boot/) ([JSON Web Token](https://jwt.io/)) MariaDB for its database. This project is deployable after build the project it will generate war file that can deploy in any tomcat server.
 
