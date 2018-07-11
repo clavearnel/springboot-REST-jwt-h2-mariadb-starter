@@ -1,0 +1,18 @@
+app:
+  name: springboot-angular-REST-jwt-h2-mariadb  
+jwt:
+  header: Authorization
+  expires_in: 300 # 5 minutes
+  mobile_expires_in: 2629746 # 60 minutes
+  secret: project-app-demo
+  cookie: AUTH-TOKEN
+spring:
+  jpa:
+    hibernate:
+      # possible values: validate | update | create | create-drop
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mariadb://localhost:3306/demo
+    username: admin
+    password: password
+    driver-class-name: org.mariadb.jdbc.Driver
